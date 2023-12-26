@@ -13,8 +13,8 @@ function CityContainer({ weatherData }) {
                         <div className="temperature">{(weatherData.main.temp).toFixed(0)}°C</div>
                         <div className="additional-info">
                             <div className="feels-like">Feels like: {(weatherData.main.feels_like.toFixed(0))}°C</div>
-                            <div className="temp-min">Min: {(weatherData.main.temp_min).toFixed(0)}°C</div>
-                            <div className="temp-max">Max: {(weatherData.main.temp_max.toFixed(0))}°C</div>
+                            {/* <div className="temp-min">Min: {(weatherData.main.temp_min).toFixed(0)}°C</div> */}
+                            {/* <div className="temp-max">Max: {(weatherData.main.temp_max.toFixed(0))}°C</div> */}
                             <div className="humidity">Humidity: {weatherData.main.humidity}%</div>
                         </div>
                     </div>

@@ -88,4 +88,8 @@
     .search-container {
         padding: 10px;
     }
+
+    .input-button button {
+        height: 40px;
+    }
 }

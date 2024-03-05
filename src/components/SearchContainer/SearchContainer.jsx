@@ -7,7 +7,7 @@ import Logo from "../../assets/images/logo2.png";
 function SearchContainer({ setWeatherData }) {
     
     async function handleSearch() {
-        const API_KEY = '17630bdd05eee45d88f226e1f6ed84ce';
+        const API_KEY = test;
         
         let city = document.getElementById("searchField").value;
         if (city === "" || city === null) {
